@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é o meu primeiro site!">
+    <meta name="keywords" content="progamacao,html,css,javascript">
+    <meta name="author" content="Stephany S. Santana">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulário Aqui</h1>
+
+    <form>
+        <!--LEGENDA PARA NOME-->
+        <label for="campo_nome">Nome:</label>
+        <!--CAMPO INPUT TYPE TEXT-->
+        <input id="campo_nome" type="text" placeholder="Digite Seu Nome Aqui" required>
+        <br><br>
+        
+        <!--LEGENDA PARA EMAIL-->
+        <label for="campo_email">Email:</label>
+        <!--CAMPO INPUT DO TYPE EMAIL-->
+        <input id="campo_email" type="email" placeholder="Digite Seu Email Aqui" required>
+        <br><br>
+        
+        <!--LEGENDA PARA SENHA-->
+        <label for="campo_senha">Senha:</label>
+        <!--CAMPO INPUT TYPE SENHA/PASSWORD-->
+        <input id="campo_senha" type="password" placeholder="Digite Sua Senha" required>
+        <br><br>
+        
+        <h2>Animal de Estimação</h2>
+        <input type="radio" id="cat" name="animal" value="gato">
+        <label for="Cat">Gato</label>
+        <br><br>
+
+        <input type="radio" id="dog" name="animal" value="cachorro">
+        <label for="dog">Cachorro</label>
+        <br><br>
+
+        <input type="radio" id="bird" name="animal" value="passarinho">
+        <label for="bird">Passarinho</label>
+        <br><br>
+
+        <h2>O que você tem em casa?</h2>
+        <input id="Item1" type="checkbox" name="Item1" value="TV">
+        <label for="Item1">TV</label>
+        <br><br>
+
+        <input id="Item2" type="checkbox" name="Item2" value="Geladeira">
+        <label for="Item2">Geladeira</label>
+        <br><br>
+
+        <input id="Item3" type="checkbox" name="Item3" value="Computador">
+        <label for="Item3">Computador</label>
+        <br><br>
+
+        <h2>Escolha uma cor</h2>
+        <select name="cores">
+            <option selected disabled
+            value="">Selecione uma cor</option>
+            <option
+            value="vermelho">Vermelho</option>
+            <option
+            value="azul">Azul</option>
+            <option
+            value="amarelo">Amarelo</option>
+            <option
+            value="verde">Verde</option>
+        </select>
+        <br><br>
+
+        <h2>Digite sua mensagem</h2>
+        <textarea name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="75"></textarea>
+        <br><br>
+        
+        <!--CAMPO INPUT DO TYPE SUBMIT-->
+        <input type="submit" value="Enviar Formulário">
+        </form>
+    <br><br>
+
+    <a href="index.HTML">Voltar para a principal</a>
+</body>
+</html>
